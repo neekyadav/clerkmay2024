@@ -11,9 +11,9 @@ export default function RootLayout({
       <html lang="en">
         <body>
           <header>
-            {/* <SignedOut>
+            <SignedOut>
               <SignInButton />
-            </SignedOut> */}
+            </SignedOut>
             <SignedIn>
               <UserButton />
             </SignedIn>
